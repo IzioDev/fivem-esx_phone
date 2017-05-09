@@ -1,5 +1,5 @@
 ALTER TABLE `users` 
-ADD COLUMN `phone_number` INT NULL DEFAULT 0 AFTER `position`;
+ADD COLUMN `phone_number` INT NULL AFTER `position`;
 
 CREATE TABLE `user_contacts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
