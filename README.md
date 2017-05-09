@@ -5,7 +5,7 @@ FiveM-esx_phone
 
 -- Install --
 
-1) Copy folders in ressource
+1) Copy folders in resources
 
 2) Import esx_phone.sql
 
