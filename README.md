@@ -12,3 +12,9 @@ FiveM-esx_phone
 -- How To --
 
 Press ç/9 ingame (ABOVE I AND O)
+
+-- Additonal Notes --
+
+#Police, #Ambulance, #Taxi are addons numbers from scripts I will publish in the future.
+
+They are not available directly in esx_phone.
