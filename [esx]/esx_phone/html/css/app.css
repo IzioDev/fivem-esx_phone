@@ -1,0 +1,186 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../pdown.ttf');
+}
+
+#cursor {
+  position: absolute;
+  z-index: 999999;
+  display:  none;
+}
+
+#phone {
+		font-family     : bankgothic;  
+    min-width       : 350px;
+    background-color: #506be6;
+    color           : #fff;
+    box-shadow      : 0px 0px 50px 0px #000;
+    position        : absolute;
+    right           : 40;
+    bottom          : 40;
+    overflow        : hidden;
+    display         : none;
+}
+
+#phone .head {
+	text-align  : center;
+  height      : 40px;
+  line-height : 40px;
+}
+
+#phone .menu {
+  max-height: 320px;
+  overflow-y: scroll;  
+}
+
+#phone .menu::-webkit-scrollbar { 
+  display: none; 
+}
+
+#phone .menu .menu-item {
+  display         : block;
+  background-color: #f1f1f1;
+  box-shadow      : inset 1px 0px 0px 1px #b8b8b8;
+  height          : 32px;
+  line-height     : 32px;
+  color           : #3A3A3A;
+	text-align      :  center;
+}
+
+#phone .menu .menu-item.selected {
+	background-color: #d0d0d0;
+}
+
+#messages {
+
+  font-family     : bankgothic;  
+  background-color: #506be6;
+  color           : #fff;
+  box-shadow      : 0px 0px 50px 0px #000;
+  position        : absolute;
+  overflow        : hidden;
+  top             :  50%;
+  left            :  50%;
+  width           : 800px;
+  max-height      : 500px;
+  margin-top      : -250px;
+  margin-left     : -400px;
+  display         : none; 
+}
+
+#messages .head {
+  text-align  : center;
+  height      : 40px;
+  line-height : 40px;
+}
+
+#messages .container {
+  overflow-y: auto;
+  max-height: 460px;
+}
+
+#messages .container .message {
+  display         : block;
+  background-color: #f1f1f1;
+  box-shadow      : inset 1px 0px 0px 1px #b8b8b8;
+  min-height      : 32px;
+  color           : #3A3A3A;
+  text-align      : left;
+  display         : flex;
+  flex-direction  : row;
+  padding         : 5px;
+}
+
+#messages .container .message .sender{
+  font-weight: bold;
+  flex-grow: 1;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+#messages .container .message .sender .center{
+  width: 100%;
+  text-align: center;
+}
+
+#messages .container .message .body{
+  font-weight: bold;
+  width: 50%;
+}
+
+#messages .container .message .actions{
+  font-weight: bold;
+  width: 20%;
+}
+
+#writer {
+
+  font-family     : bankgothic;  
+  background-color: #506be6;
+  color           : #fff;
+  box-shadow      : 0px 0px 50px 0px #000;
+  position        : absolute;
+  overflow        : hidden;
+  top             :  50%;
+  left            :  50%;
+  width           : 800px;
+  height          : 300px;
+  margin-top      : -250px;
+  margin-left     : -400px;
+  display         : none; 
+}
+
+#writer .head {
+  text-align  : center;
+  height      : 40px;
+  line-height : 40px;
+}
+
+#writer_message {
+  width : 800px;
+  height: 220px;
+}
+
+#writer_send {
+  width : 800px;
+  height: 40px;
+}
+
+#add_contact {
+
+  font-family     : bankgothic;  
+  background-color: #506be6;
+  color           : #fff;
+  box-shadow      : 0px 0px 50px 0px #000;
+  position        : absolute;
+  overflow        : hidden;
+  top             :  50%;
+  left            :  50%;
+  width           : 400px;
+  height          : 110px;
+  margin-top      : -55px;
+  margin-left     : -200px;
+  display         : none; 
+}
+
+#add_contact .head {
+  text-align  : center;
+  height      : 40px;
+  line-height : 40px;
+}
+
+#add_contact_number {
+  width : 400px;
+  height: 32px;
+}
+
+#add_contact_send {
+  width : 400px;
+  height: 40px;
+}
