@@ -3,6 +3,10 @@ FiveM-esx_phone
 
 ![screenshot](https://img4.hostingpics.net/pics/789291FiveM2017050914303865.png)
 
+You NEED this module for esx_phone to work : 
+
+  https://github.com/indilo53/fivem-es_extended
+
 -- Install --
 
 1) Copy folders in resources
