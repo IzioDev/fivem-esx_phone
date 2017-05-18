@@ -12,7 +12,7 @@ local function GenerateUniquePhoneNumber()
 
 		phoneNumber = math.random(10000, 99999)
 
-		local executed_query = MySQL:executeQuery("SELECT COUNT(*) as count FROM users WHERE phone_number = '@phoneNumber'", {['@phoneNumber'] = number})
+		local executed_query = MySQL:executeQuery("SELECT COUNT(*) as count FROM users WHERE phone_number = '@phoneNumber'", {['@phoneNumber'] = phoneNumber})
 		local result         = MySQL:getResults(executed_query, {'count'})
 		local count          = tonumber(result[1].count)
 
